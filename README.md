@@ -7,6 +7,7 @@ Clone it and open in netbeans.
 
 Donwload smartgit at http://www.syntevo.com/smartgithg/download or
 Download gitbash at http://windows.github.com/
+to clone this project
 
 feel free to make any change or add tutorial about this project
 
@@ -15,4 +16,4 @@ Learn about JSF
 Learn about postgreSQL - http://www.postgresql.org/
 Learn about Primefaces - http://www.primefaces.org/showcase/ui/home.jsf
 
-Last update 19 Feb 2014 add User.java - generate file entity
+Last update 19 Feb 2014 add User.java in com.entity package - generate file entity
