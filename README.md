@@ -12,8 +12,11 @@ to clone this project
 feel free to make any change or add tutorial about this project
 
 Learn about Maven
+
 Learn about JSF
+
 Learn about postgreSQL - http://www.postgresql.org/
+
 Learn about Primefaces - http://www.primefaces.org/showcase/ui/home.jsf
 
 Update 19 Feb 2014 add User.java in com.entity package - generate file entity
