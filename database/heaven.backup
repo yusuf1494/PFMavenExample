@@ -1,0 +1,72 @@
+--
+-- PostgreSQL database dump
+--
+
+-- Dumped from database version 9.2.4
+-- Dumped by pg_dump version 9.2.2
+-- Started on 2014-02-19 11:29:26
+
+SET statement_timeout = 0;
+SET client_encoding = 'UTF8';
+SET standard_conforming_strings = on;
+SET check_function_bodies = false;
+SET client_min_messages = warning;
+
+--
+-- TOC entry 169 (class 3079 OID 11727)
+-- Name: plpgsql; Type: EXTENSION; Schema: -; Owner: 
+--
+
+CREATE EXTENSION IF NOT EXISTS plpgsql WITH SCHEMA pg_catalog;
+
+
+--
+-- TOC entry 1923 (class 0 OID 0)
+-- Dependencies: 169
+-- Name: EXTENSION plpgsql; Type: COMMENT; Schema: -; Owner: 
+--
+
+COMMENT ON EXTENSION plpgsql IS 'PL/pgSQL procedural language';
+
+
+SET search_path = public, pg_catalog;
+
+SET default_with_oids = false;
+
+--
+-- TOC entry 168 (class 1259 OID 34683)
+-- Name: user; Type: TABLE; Schema: public; Owner: postgres
+--
+
+CREATE TABLE "user" (
+    id character varying(32) NOT NULL
+);
+
+
+ALTER TABLE public."user" OWNER TO postgres;
+
+--
+-- TOC entry 1916 (class 0 OID 34683)
+-- Dependencies: 168
+-- Data for Name: user; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY "user" (id) FROM stdin;
+\.
+
+
+--
+-- TOC entry 1915 (class 2606 OID 34687)
+-- Name: id; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY "user"
+    ADD CONSTRAINT id PRIMARY KEY (id);
+
+
+-- Completed on 2014-02-19 11:29:27
+
+--
+-- PostgreSQL database dump complete
+--
+
