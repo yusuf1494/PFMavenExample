@@ -31,8 +31,6 @@ PFMavenExample directory
 
 ---src (source code ex: java class, web page)
 
----target (the builded project, it must be ignoring using gitignore)
-
 
 Update 19 Feb 2014 add User.java in com.entity package - generate file entity
 
