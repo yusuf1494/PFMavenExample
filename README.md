@@ -11,6 +11,8 @@ to clone this project
 
 feel free to make any change or add tutorial about this project
 
+Learn about Java
+
 Learn about Maven
 
 Learn about JSF
