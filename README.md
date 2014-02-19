@@ -21,6 +21,14 @@ Learn about postgreSQL - http://www.postgresql.org/
 
 Learn about Primefaces - http://www.primefaces.org/showcase/ui/home.jsf
 
+PFMavenExample directory
+-database (backup file postgreSQL in here)
+-src (this is the projects place, you can have many project in this place)
+--heaven (this is the project)
+---src (source code ex: java class, web page)
+---target (the builded project, it must be ignoring using gitignore)
+
+
 Update 19 Feb 2014 add User.java in com.entity package - generate file entity
 
 Update 19 Feb 2014 add heaven.backup in database folder - database backup file
